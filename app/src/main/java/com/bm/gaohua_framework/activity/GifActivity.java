@@ -4,10 +4,12 @@ import com.ant.liao.GifView;
 import com.ant.liao.GifView.GifImageType;
 import com.bm.gaohua_framework.R;
 import com.bm.gaohua_framework.interfaces.IBaseActivity;
+import com.bm.gaohua_framework.utils.ToastUtil;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 /**
  * 
@@ -46,6 +48,7 @@ public class GifActivity extends Activity implements IBaseActivity {
 
 	@Override
 	public void initData() {
+		ToastUtil.getInterface().showToast(this,"浩浩说他是大帅比！", 1);
 		gifView.setGifImage(R.drawable.head_meitu_1);
 		gifView.setGifImageType(GifImageType.COVER);
 
