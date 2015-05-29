@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.bm.gaohua_framework"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <com.bm.gaohua_framework.views.verificationcodeview.VerCodeView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        custom:titleText="1206"
+        custom:titleTextColor="@android:color/black"
+        custom:titleTextSize="40sp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>

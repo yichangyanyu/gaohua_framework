@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bm.gaohua_framework"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.bm.gaohua_framework.app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        <!-- 主界面 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 选择照片 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.ChoosePhotoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注解原理实例 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.InjectTestActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- view分发实例 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.EventDispatchSampleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 手势放大缩小 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.PhotoViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 广告轮播 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.ImageCycleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 自定义带动画的view -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AnimationDemoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 验证码 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.VerCodeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 自定义通讯录 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.ContactsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 辐射动画效果 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.RadiationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 相册选择, 相册上传 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.PhotoChoiceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bm.gaohua_framework.activity.UploadActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 启动页 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.StartActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 相册模块 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AboutPhotoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 自定义组件模块 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AboutCustomViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 基础教程模块 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AboutBaseCourseActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 常用模块 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AboutCommonFunctionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 常用动画模块 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AboutCommonAnimationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- Gif图播放 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.GifActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- ImageView模块 -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.AboutImageViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 指示器Demo -->
+        <activity
+            android:name="com.bm.gaohua_framework.activity.IndicatorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

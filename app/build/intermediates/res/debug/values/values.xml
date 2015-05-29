@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="string" name="titleText"/>
+    <attr format="color" name="titleTextColor"/>
+    <attr format="dimension" name="titleTextSize"/>
+    <!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="backColor">#2000</color>
+    <color name="background">#272727</color>
+    <color name="black">#000000</color>
+    <color name="blue">#499BF7</color>
+    <color name="common_bg">#ededed</color>
+    <color name="common_text">#0094ff</color>
+    <color name="common_title">#F9F9F9</color>
+    <color name="deepcolor">#faaa5f</color>
+    <color name="defaultTextColor">#666</color>
+    <color name="detail_bgColor">#f5f5f5</color>
+    <color name="devide_line">#CBCED2</color>
+    <color name="gold">#000000</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="gray_font">#818181</color>
+    <color name="grays">#818181</color>
+    <color name="light_black">#666666</color>
+    <color name="light_gray">#999999</color>
+    <color name="naming">#ABABAB</color>
+    <color name="orange">#ff9900</color>
+    <color name="orange_yellow">#9b9ba0</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="refresh_head_bg">#2B2B2B</color>
+    <color name="remote_connect_text">#FFe78018</color>
+    <color name="remote_disconnect_text">#FF901821</color>
+    <color name="result_view">#b0000000</color>
+    <color name="shadowcolor">#333333</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffff</color>
+    <color name="whites">#ffffff</color>
+    <color name="yellow">#F99503</color>
+    <declare-styleable name="VerCodeView"><attr name="titleText"/><attr name="titleTextColor"/><attr name="titleTextSize"/></declare-styleable>
+    <!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="semi_black">#80000000</drawable>
+    <!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_base_title">基础教程模块</string>
+    <string name="about_common_anim_title">常用动画模块</string>
+    <string name="about_common_function_title">常用功能模块</string>
+    <string name="about_custom_view_title">自定义View模块</string>
+    <string name="about_image_view_title">常用ImageView模块</string>
+    <string name="about_photo_title">相册模块</string>
+    <string name="app_name">gaohua_framework</string>
+    <string name="click_choose">点击选择图片</string>
+    <string name="from_camera">直接拍照</string>
+    <string name="from_photo">本地相册选择</string>
+    <string name="get_classinfo">获取类信息</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_title">武汉项目三组项目实例</string>
+    <string name="no_data">网络异常...</string>
+    <string name="photo_choose_title">照片选择</string>
+</resources>

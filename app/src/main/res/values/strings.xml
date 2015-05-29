@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">gaohua_framework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="click_choose">点击选择图片</string>
+    <string name="from_photo">本地相册选择</string>
+    <string name="from_camera">直接拍照</string>
+    <string name="get_classinfo">获取类信息</string>
+    <string name="no_data">网络异常...</string>
+
+    <!-- 标题 -->
+    <string name="main_title">武汉项目三组项目实例</string>
+    <string name="photo_choose_title">照片选择</string>
+    <string name="about_photo_title">相册模块</string>
+    <string name="about_custom_view_title">自定义View模块</string>
+    <string name="about_base_title">基础教程模块</string>
+    <string name="about_common_function_title">常用功能模块</string>
+    <string name="about_common_anim_title">常用动画模块</string>
+    <string name="about_image_view_title">常用ImageView模块</string>
+    
+
+</resources>

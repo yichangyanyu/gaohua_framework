@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <com.ant.liao.GifView
+            android:id="@+id/iv_gif"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <com.ant.liao.GifView
+            android:id="@+id/iv_gif2"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <com.ant.liao.GifView
+            android:id="@+id/iv_gif3"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <com.ant.liao.GifView
+            android:id="@+id/iv_gif4"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <com.ant.liao.GifView
+            android:id="@+id/iv_gif5"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <com.ant.liao.GifView
+            android:id="@+id/iv_gif6"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="我是字幕君 (-.-) ~浩哥带你飞 么么哒~~~~~~"
+        android:singleLine="true"
+        android:textColor="#E93470"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout><!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/layout/act_gif.xml -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/gaohua/GitHub/gaohua_framework/app/libs/universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432">
+        <dex dex="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-e8c41681a1feb369b0501e5762ac57f941f1638d.jar" />
+    </item>
+    <item
+        jar="/Users/gaohua/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-a0035f160d47c1e9ff0db6c7162ee75537d23f69.jar" />
+    </item>
+    <item
+        jar="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/pre-dexed/debug/classes-efbaac195efa6581a4dae9368cc97838f8d0987b.jar" />
+    </item>
+    <item
+        jar="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-373bbd63fc95add16c19ebc2ad9d9a6376ab94e6.jar" />
+    </item>
+    <item
+        jar="/Users/gaohua/GitHub/gaohua_framework/app/libs/GifView.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5a518235931001b94e87540c99bd13258f614622">
+        <dex dex="/Users/gaohua/GitHub/gaohua_framework/app/build/intermediates/pre-dexed/debug/GifView-18a011712aad4f9c3c87888320f94cdfa52c9662.jar" />
+    </item>
+
+</items>
