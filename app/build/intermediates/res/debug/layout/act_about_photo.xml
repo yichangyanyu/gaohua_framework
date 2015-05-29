@@ -9,7 +9,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="#E93470" >
+        android:background="#E93470"
+        >
 
         <ImageView
             android:onClick="close"
@@ -37,4 +38,4 @@
         android:dividerHeight="1dp" >
     </ListView>
 
-</LinearLayout><!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/layout/act_about_photo.xml -->
+</LinearLayout><!-- From: file:/Users/gaohua/GitHub/gaohua_framework2/app/src/main/res/layout/act_about_photo.xml -->

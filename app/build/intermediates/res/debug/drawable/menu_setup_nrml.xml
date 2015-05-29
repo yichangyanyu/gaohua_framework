@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/menu_setup_pressed" />
     <item android:drawable="@drawable/menu_setup_normal" />
 </selector>
-<!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/drawable/menu_setup_nrml.xml -->
+<!-- From: file:/Users/gaohua/GitHub/gaohua_framework2/app/src/main/res/drawable/menu_setup_nrml.xml -->

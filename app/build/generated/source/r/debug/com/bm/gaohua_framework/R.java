@@ -224,10 +224,11 @@ containing a value of this type.
         public static final int from_camera=0x7f070008;
         public static final int from_photo=0x7f070009;
         public static final int get_classinfo=0x7f07000a;
-        public static final int hello_world=0x7f07000b;
-        public static final int main_title=0x7f07000c;
-        public static final int no_data=0x7f07000d;
-        public static final int photo_choose_title=0x7f07000e;
+        public static final int git_title=0x7f07000b;
+        public static final int hello_world=0x7f07000c;
+        public static final int main_title=0x7f07000d;
+        public static final int no_data=0x7f07000e;
+        public static final int photo_choose_title=0x7f07000f;
     }
     public static final class styleable {
         /** Attributes that can be used with a VerCodeView.

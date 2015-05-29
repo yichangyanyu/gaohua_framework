@@ -175,10 +175,11 @@ int string click_choose 0x7f070007
 int string from_camera 0x7f070008
 int string from_photo 0x7f070009
 int string get_classinfo 0x7f07000a
-int string hello_world 0x7f07000b
-int string main_title 0x7f07000c
-int string no_data 0x7f07000d
-int string photo_choose_title 0x7f07000e
+int string git_title 0x7f07000b
+int string hello_world 0x7f07000c
+int string main_title 0x7f07000d
+int string no_data 0x7f07000e
+int string photo_choose_title 0x7f07000f
 int[] styleable VerCodeView { 0x7f010000, 0x7f010001, 0x7f010002 }
 int styleable VerCodeView_titleText 0
 int styleable VerCodeView_titleTextColor 1

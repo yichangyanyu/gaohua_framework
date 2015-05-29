@@ -8,4 +8,4 @@
         android:id="@+id/ad_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</RelativeLayout><!-- From: file:/Users/gaohua/GitHub/gaohua_framework/app/src/main/res/layout/act_ad_cycle.xml -->
+</RelativeLayout><!-- From: file:/Users/gaohua/GitHub/gaohua_framework2/app/src/main/res/layout/act_ad_cycle.xml -->
