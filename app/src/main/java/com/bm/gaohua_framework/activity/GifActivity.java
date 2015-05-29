@@ -29,8 +29,7 @@ public class GifActivity extends Activity implements IBaseActivity {
 
 	@Override
 	public void close(View v) {
-		// TODO Auto-generated method stub
-
+		this.finish();
 	}
 
 	@Override
