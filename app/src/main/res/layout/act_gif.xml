@@ -25,7 +25,8 @@
             android:layout_centerInParent="true"
             android:text="@string/git_title"
             android:textColor="@android:color/white"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+             />
     </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
