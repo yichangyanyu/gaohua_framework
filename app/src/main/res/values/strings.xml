@@ -18,6 +18,6 @@
     <string name="about_common_function_title">常用功能模块</string>
     <string name="about_common_anim_title">常用动画模块</string>
     <string name="about_image_view_title">常用ImageView模块</string>
-    
+    <string name="git_title">Gif动画</string>
 
 </resources>
