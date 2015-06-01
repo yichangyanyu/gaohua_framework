@@ -68,4 +68,6 @@ public class GifActivity extends Activity implements IBaseActivity {
 		gifView6.setGifImageType(GifImageType.COVER);
 	}
 
+
+
 }
